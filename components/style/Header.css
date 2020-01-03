@@ -1,0 +1,144 @@
+.img{
+    height: 50px;
+    width: 100%
+}
+.container-fluid{
+    background: #fff;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    display: block;
+    position: relative;
+    z-index: 1010;
+}
+.navbar-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    width: 50%;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navigation-header{
+    display: flex;
+    box-sizing: border-box;
+    height: 65px;
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+    z-index: 1011;   
+}
+.navbar-category{
+    font-size: 14px;
+    padding: 10px 0;
+    margin-left: 20px;
+    margin-top: 4px;
+    width: 100px;
+}
+
+.navbar-category:hover{
+    background-color: rgb(211, 211, 211);
+}
+.navbar-search{
+    margin: 0 25px;
+    max-width: 580px;
+    width: 100%;
+    margin-top: 15px;
+  color: black;
+   box-shadow: grey;
+  
+}
+.navbar-udemy-business{
+    font-size: 14px;
+    margin: 0 1px;
+    padding: 10px 0;
+    width: 160px;
+}
+.udemy:hover{
+    color: black;
+    background-color:lightgrey;
+}
+
+.udemy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #505763;
+    font-weight: 400;
+    height: 45px;
+    line-height: 20px;
+    padding: 12px 15px;
+}
+.fontawsome{
+    vertical-align:4%;
+    margin-right: 5px;
+    color: #8a92a3;
+}
+
+.divide{
+    height: 60%;
+    border-left: 1px solid #dedfe0;
+    margin: 0 8px;
+}
+.cart{
+    font-size: 13px;
+    margin: 0 2px;
+    padding: 10px 0;
+}
+.font{
+    vertical-align: middle;
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #8a92a3;
+}
+.font:hover{
+    background-color: rgb(211, 211, 211);
+    border-radius: 100%;
+}
+.login{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 100px;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+.btn-LogIn{
+    color: grey;
+    background-color: #fff;
+    border: 1px solid black;
+    font-weight: 600;
+}
+.btn-LogIn:hover {
+    color: black;
+    background-color: lightgrey;
+    border: 1px solid #5c5c5c;
+}
+.signup{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 10px;
+    padding: 15px 0;
+    width: 140px;
+}
+.btn-SignUp{
+    color: #fff;
+    background-color: #ec5252;
+    border: 1px solid transparent;
+}
+.btn-SignUp:hover{
+    background-color: maroon;
+    border: 1px solid #b97c7c;
+}
+
